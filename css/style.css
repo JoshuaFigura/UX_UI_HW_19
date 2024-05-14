@@ -1,0 +1,101 @@
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+    padding: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.logo {
+    width: 23%;
+    padding: 1%;
+    text-align: center;
+}
+
+nav {
+    width: 73%;
+    padding: 1%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.heroimg {
+    height: 600px;
+    padding: 25px;
+}
+
+.content {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    color: white;
+    background-color: #014421;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 50px  ;
+    color: #014421;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center  ;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    font-size: 17px;
+}
+
+img {
+    margin-left: 10px;
+}
+
+
+.flexContainer {
+    display: flex;
+    width: 60%; 
+    margin: auto;
+    padding: 100px;
+    text-align: center;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.workGrid {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 100px;
+    padding: 100px;
+    justify-content: space-evenly;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h4 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #014421;
+}
+
+.mySkills {
+    margin-top: 90px;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      flex-direction: column;
+      width: 100%;
+    }
+  }
