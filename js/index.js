@@ -1,0 +1,1 @@
+console.log("your indexedDB.js file is loaded correctly");
